@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.PataEPelo" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/verde</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/fundo</item>
+        <item name="android:navigationBarColor">@color/verde</item>
+        <item name="android:windowBackground">@color/fundo</item>
+    </style>
+</resources>
