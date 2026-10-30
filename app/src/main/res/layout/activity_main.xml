@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical" android:padding="24dp">
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:text="@string/app_name" android:textSize="28sp" android:textColor="@color/texto" />
-</LinearLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <ImageView android:layout_width="64dp" android:layout_height="64dp"
+            android:src="@drawable/ic_pata" android:importantForAccessibility="no" />
+        <TextView style="@style/Subtitulo" android:layout_marginTop="16dp" android:text="@string/app_name" />
+        <TextView style="@style/Titulo" android:layout_marginTop="20dp" android:text="@string/inicio_chamada" />
+        <TextView style="@style/Texto" android:text="@string/inicio_descricao" />
+        <LinearLayout android:id="@+id/menu" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" />
+        <TextView style="@style/Texto" android:layout_marginTop="32dp"
+            android:textSize="13sp" android:text="@string/inicio_rodape" />
+    </LinearLayout>
+</ScrollView>

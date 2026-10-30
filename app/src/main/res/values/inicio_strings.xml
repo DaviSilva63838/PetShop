@@ -1,0 +1,12 @@
+<resources>
+    <string name="inicio_chamada">Um carinho a mais
+para o seu pet.</string>
+    <string name="inicio_descricao">Banho e tosa com cuidado. Cadastre seu pet e organize o próximo atendimento.</string>
+    <string name="inicio_servicos">Ver serviços</string>
+    <string name="inicio_pet">Meu pet</string>
+    <string name="inicio_agendamentos">Meus agendamentos</string>
+    <string name="inicio_rodape">PetShop fictício • Projeto acadêmico
+Agendamentos salvos somente neste aparelho.</string>
+    <string name="voltar">Voltar</string>
+    <string name="preco_formatado">R$ %1$d,00</string>
+</resources>
