@@ -1,0 +1,5 @@
+<resources>
+    <string name="servicos_titulo">Cuidados para seu pet</string>
+    <string name="servicos_descricao">Escolha um serviço. Reservamos uma hora para cada atendimento.</string>
+    <string name="servico_agendar">Agendar %1$s</string>
+</resources>

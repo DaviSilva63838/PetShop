@@ -9,7 +9,9 @@
         <TextView style="@style/Titulo" android:layout_marginTop="20dp" android:text="@string/inicio_chamada" />
         <TextView style="@style/Texto" android:text="@string/inicio_descricao" />
         <LinearLayout android:id="@+id/menu" android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:orientation="vertical" />
+            android:layout_height="wrap_content" android:orientation="vertical">
+            <Button android:id="@+id/botaoServicos" style="@style/Botao" android:text="@string/inicio_servicos" />
+        </LinearLayout>
         <TextView style="@style/Texto" android:layout_marginTop="32dp"
             android:textSize="13sp" android:text="@string/inicio_rodape" />
     </LinearLayout>

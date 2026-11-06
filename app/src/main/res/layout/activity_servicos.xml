@@ -1,0 +1,11 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <Button android:id="@+id/botaoVoltar" style="@style/BotaoSecundario" android:text="@string/voltar" />
+        <TextView style="@style/Titulo" android:layout_marginTop="24dp" android:text="@string/servicos_titulo" />
+        <TextView style="@style/Texto" android:text="@string/servicos_descricao" />
+        <LinearLayout android:id="@+id/listaServicos" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>
