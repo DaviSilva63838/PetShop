@@ -9,6 +9,9 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        findViewById<Button>(R.id.botaoPet).setOnClickListener {
+            startActivity(Intent(this, PetActivity::class.java))
+        }
         findViewById<Button>(R.id.botaoServicos).setOnClickListener {
             startActivity(Intent(this, ServicosActivity::class.java))
         }

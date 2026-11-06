@@ -1,0 +1,23 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <Button android:id="@+id/botaoVoltar" style="@style/BotaoSecundario" android:text="@string/voltar" />
+        <TextView style="@style/Titulo" android:layout_marginTop="24dp" android:text="@string/pet_titulo" />
+        <TextView style="@style/Texto" android:text="@string/pet_descricao" />
+        <TextView style="@style/Rotulo" android:labelFor="@id/campoNome" android:text="@string/pet_nome" />
+        <EditText android:id="@+id/campoNome" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="52dp" android:inputType="textCapWords"
+            android:maxLength="40" android:maxLines="1" android:singleLine="true"
+            android:importantForAutofill="no" />
+        <TextView style="@style/Rotulo" android:labelFor="@id/campoEspecie" android:text="@string/pet_especie" />
+        <Spinner android:id="@+id/campoEspecie" android:layout_width="match_parent"
+            android:layout_height="52dp" android:entries="@array/especies" />
+        <TextView style="@style/Rotulo" android:labelFor="@id/campoTutor" android:text="@string/pet_tutor" />
+        <EditText android:id="@+id/campoTutor" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="52dp" android:inputType="textCapWords"
+            android:maxLength="60" android:maxLines="1" android:singleLine="true"
+            android:importantForAutofill="no" />
+        <Button android:id="@+id/botaoSalvar" style="@style/Botao" android:text="@string/pet_salvar" />
+    </LinearLayout>
+</ScrollView>
