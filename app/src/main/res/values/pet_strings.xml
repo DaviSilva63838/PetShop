@@ -4,8 +4,8 @@
     <string name="pet_nome">Nome do pet</string>
     <string name="pet_especie">Espécie</string>
     <string name="pet_tutor">Nome do tutor</string>
-    <string name="pet_salvar">Validar cadastro</string>
-    <string name="pet_salvo">Cadastro válido!</string>
+    <string name="pet_salvar">Salvar pet</string>
+    <string name="pet_salvo">Pet salvo!</string>
     <string name="pet_erro_nome">Informe o nome do pet.</string>
     <string name="pet_erro_tutor">Informe o nome do tutor.</string>
     <string name="pet_erro_salvar">Não foi possível salvar. Tente novamente.</string>

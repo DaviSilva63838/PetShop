@@ -19,6 +19,14 @@ class PetActivity : Activity() {
         campoTutor = findViewById(R.id.campoTutor)
         campoEspecie = findViewById(R.id.campoEspecie)
         findViewById<Button>(R.id.botaoVoltar).setOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            val pet = PetStorage(this).carregar()
+            if (pet != null) {
+                campoNome.setText(pet.nome)
+                campoTutor.setText(pet.tutor)
+                campoEspecie.setSelection(if (pet.especie == "Gato") 1 else 0)
+            }
+        }
         findViewById<Button>(R.id.botaoSalvar).setOnClickListener { salvarPet() }
     }
 
@@ -36,6 +44,11 @@ class PetActivity : Activity() {
             return
         }
         val pet = Pet(nome, campoEspecie.selectedItem.toString(), tutor)
-        Toast.makeText(this, getString(R.string.pet_salvo), Toast.LENGTH_SHORT).show()
+        if (PetStorage(this).salvar(pet)) {
+            Toast.makeText(this, R.string.pet_salvo, Toast.LENGTH_SHORT).show()
+            finish()
+        } else {
+            Toast.makeText(this, R.string.pet_erro_salvar, Toast.LENGTH_LONG).show()
+        }
     }
 }
