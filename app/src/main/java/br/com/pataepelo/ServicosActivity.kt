@@ -1,5 +1,6 @@
 package br.com.pataepelo
 
+import android.content.Intent
 import android.app.Activity
 import android.os.Bundle
 import android.widget.Button
@@ -18,6 +19,13 @@ class ServicosActivity : Activity() {
             item.findViewById<TextView>(R.id.nomeServico).text = servico.nome
             item.findViewById<TextView>(R.id.descricaoServico).text = servico.descricao
             item.findViewById<TextView>(R.id.precoServico).text = getString(R.string.preco_formatado, servico.preco)
+            val botaoAgendar = item.findViewById<Button>(R.id.botaoAgendar)
+            botaoAgendar.text = getString(R.string.servico_agendar, servico.nome.lowercase())
+            botaoAgendar.setOnClickListener {
+                val intent = Intent(this, AgendaActivity::class.java)
+                intent.putExtra("servico_id", servico.id)
+                startActivity(intent)
+            }
             lista.addView(item)
         }
     }

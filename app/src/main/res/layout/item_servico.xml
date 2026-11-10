@@ -5,4 +5,6 @@
     <TextView android:id="@+id/nomeServico" style="@style/Subtitulo" />
     <TextView android:id="@+id/descricaoServico" style="@style/Texto" />
     <TextView android:id="@+id/precoServico" style="@style/Subtitulo" android:textColor="@color/verde" />
+
+    <Button android:id="@+id/botaoAgendar" style="@style/Botao" />
 </LinearLayout>
