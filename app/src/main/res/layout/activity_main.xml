@@ -12,6 +12,7 @@
             android:layout_height="wrap_content" android:orientation="vertical">
             <Button android:id="@+id/botaoServicos" style="@style/Botao" android:text="@string/inicio_servicos" />
             <Button android:id="@+id/botaoPet" style="@style/Botao" android:text="@string/inicio_pet" />
+            <Button android:id="@+id/botaoAgendamentos" style="@style/Botao" android:text="@string/inicio_agendamentos" />
         </LinearLayout>
         <TextView style="@style/Texto" android:layout_marginTop="32dp"
             android:textSize="13sp" android:text="@string/inicio_rodape" />

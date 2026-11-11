@@ -16,5 +16,6 @@
         <activity android:name=".ServicosActivity" android:exported="false" />
         <activity android:name=".PetActivity" android:exported="false" />
         <activity android:name=".AgendaActivity" android:exported="false" />
+        <activity android:name=".AgendamentosActivity" android:exported="false" />
     </application>
 </manifest>

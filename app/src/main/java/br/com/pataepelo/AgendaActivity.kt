@@ -138,6 +138,9 @@ class AgendaActivity : Activity() {
             }
 
             Toast.makeText(this, R.string.agenda_salvo, Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, AgendamentosActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            startActivity(intent)
             finish()
         } catch (erro: IllegalStateException) {
             Toast.makeText(this, erro.message ?: getString(R.string.agenda_erro_salvar), Toast.LENGTH_LONG).show()
