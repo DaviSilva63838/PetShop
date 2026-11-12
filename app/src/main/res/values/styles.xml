@@ -1,10 +1,10 @@
 <resources>
     <style name="Theme.PataEPelo" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
-        <item name="android:colorAccent">@color/verde</item>
+        <item name="android:colorAccent">@color/azul</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">@color/fundo</item>
-        <item name="android:navigationBarColor">@color/verde</item>
+        <item name="android:navigationBarColor">@color/azul</item>
         <item name="android:windowBackground">@color/fundo</item>
     </style>
 
@@ -44,8 +44,13 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textAllCaps">false</item>
     </style>
+    <style name="BotaoDestaque" parent="Botao">
+        <item name="android:background">@drawable/bg_botao_destaque</item>
+        <item name="android:textColor">@color/texto</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="BotaoSecundario" parent="Botao">
         <item name="android:background">@drawable/bg_botao_secundario</item>
-        <item name="android:textColor">@color/verde</item>
+        <item name="android:textColor">@color/azul</item>
     </style>
 </resources>

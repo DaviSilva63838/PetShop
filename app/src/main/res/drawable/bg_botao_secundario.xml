@@ -1,5 +1,5 @@
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#33216452">
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#330097D7">
     <item><shape android:shape="rectangle">
-        <solid android:color="@color/verde_claro" /><corners android:radius="12dp" />
+        <solid android:color="@color/azul_claro" /><corners android:radius="12dp" />
     </shape></item>
 </ripple>

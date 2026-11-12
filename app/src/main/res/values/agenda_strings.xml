@@ -2,18 +2,18 @@
 <resources>
     <string name="agenda_voltar">Voltar</string>
     <string name="agenda_titulo">Agendar serviço</string>
-    <string name="agenda_instrucao">Escolha o melhor dia e horário para cuidar do seu pet.</string>
+    <string name="agenda_instrucao">Escolha a data e o horário do atendimento.</string>
     <string name="agenda_preco">R$ %1$d,00</string>
     <string name="agenda_pet_resumo">Pet: %1$s • %2$s</string>
     <string name="agenda_pet_nome">Pet: %1$s</string>
     <string name="agenda_sem_pet">Cadastre seu pet antes de confirmar um agendamento.</string>
-    <string name="agenda_cadastro_necessario">Precisamos conhecer seu pet</string>
+    <string name="agenda_cadastro_necessario">Cadastre seu pet</string>
     <string name="agenda_cadastrar_pet">Cadastrar pet</string>
     <string name="agenda_agora_nao">Agora não</string>
     <string name="agenda_data">Data do atendimento</string>
     <string name="agenda_escolher_data">Escolher data</string>
     <string name="agenda_horario">Horário do atendimento</string>
-    <string name="agenda_duracao">Cada atendimento ocupa 1 hora. Escolha outro horário se o selecionado já estiver ocupado.</string>
+    <string name="agenda_duracao">Cada atendimento dura 1 hora.</string>
     <string name="agenda_confirmar">Confirmar agendamento</string>
     <string name="agenda_servico_invalido">Escolha um serviço no catálogo para agendar.</string>
     <string name="agenda_horario_ocupado">Esse horário já está ocupado. Escolha outra data ou horário.</string>
@@ -21,8 +21,8 @@
     <string name="agenda_erro_salvar">Não foi possível salvar a alteração. Tente novamente.</string>
     <string name="agenda_erro_carregar">Não foi possível ler os agendamentos salvos.</string>
     <string name="agenda_lista_titulo">Meus agendamentos</string>
-    <string name="agenda_lista_descricao">Consulte os horários guardados neste aparelho.</string>
-    <string name="agenda_vazia">Nenhum agendamento por aqui. Escolha um serviço para começar.</string>
+    <string name="agenda_lista_descricao">Veja seus horários marcados.</string>
+    <string name="agenda_vazia">Você ainda não tem agendamentos.</string>
     <string name="agenda_novo">Agendar outro serviço</string>
     <string name="agenda_data_hora">%1$s às %2$s</string>
     <string name="agenda_cancelar">Cancelar agendamento</string>

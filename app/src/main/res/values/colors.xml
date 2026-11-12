@@ -1,8 +1,9 @@
 <resources>
-    <color name="verde">#216452</color>
-    <color name="texto">#20332F</color>
-    <color name="secundario">#52645F</color>
-    <color name="fundo">#F6F8F4</color>
+    <color name="azul">#0097D7</color>
+    <color name="azul_claro">#E4F5FC</color>
+    <color name="amarelo">#FFCC00</color>
+    <color name="texto">#232323</color>
+    <color name="secundario">#464646</color>
+    <color name="fundo">#F7FAFC</color>
     <color name="branco">#FFFFFF</color>
-    <color name="verde_claro">#E2EFE6</color>
 </resources>
